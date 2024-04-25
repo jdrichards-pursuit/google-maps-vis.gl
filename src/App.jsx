@@ -49,7 +49,7 @@ function App() {
             mapId={VITE_MAP_ID}
             style={{ width: "60vw", height: "100%" }}
             defaultCenter={{ lat: 48.864716, lng: 2.349014 }}
-            defaultZoom={13}
+            defaultZoom={13.5}
             gestureHandling={"greedy"}
             disableDefaultUI={true}
           />
