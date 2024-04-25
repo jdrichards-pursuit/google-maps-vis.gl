@@ -10,7 +10,7 @@ import {
   useAdvancedMarkerRef,
 } from "@vis.gl/react-google-maps";
 
-import AdvancedMarker from "./AdvancedMarker";
+import Markers from "./Markers";
 
 function App() {
   const { VITE_API_KEY } = import.meta.env;
@@ -45,7 +45,7 @@ function App() {
         gestureHandling={"greedy"}
         disableDefaultUI={true}
       />
-      <AdvancedMarker places={places} />
+      <Markers places={places} />
     </APIProvider>
   );
 }
