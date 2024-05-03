@@ -1,5 +1,7 @@
 # GOOGLE MAPS
 
+This app displays a location and searches for different types of locations. It posts markers on the locations. It also allows the user to click on the marker and retrieve information.
+
 ## Getting started
 
 You will need to retrieve a key and a mapId from the [Google Developer Website](https://developers.google.com/maps) in order for this app to run.
