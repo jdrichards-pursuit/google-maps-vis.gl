@@ -1,6 +1,6 @@
 # GOOGLE MAPS
 
-<img src="./assets/map.png" width="600" height:"400">
+<img src="map.png" width="600" height:"400">
 
 This app displays a location and searches for different types of locations. It posts markers on the locations. It also allows the user to click on the marker and retrieve information.
 
