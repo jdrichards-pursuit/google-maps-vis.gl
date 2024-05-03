@@ -1,29 +1,16 @@
-# Basic React Starter
-
-You can use this starter to create any ReactJS app you would like.
-Unlike when you use `npm create vite@latest your-app-name -- --template react`,
-
-This repo has removed all of the unwanted starter code that is normally included when using `npm` to create an application.
+# GOOGLE MAPS
 
 ## Getting started
 
-- `clone` this application
-- `cd` into the folder
-- in the terminal run `git remote remove origin` in order to remove any connection to this Github folder.
-- change the name of this directory to a name that refers to your current project. Don't just leave it as `basic-starter`
-- run `npm install`
-- to start the project, run `npm run dev`
-- no navigate to `localhost:3000` and you will see the app
-- Now you are ready to code
+You will need to retrieve a key and a mapId from the [Google Developer Website]() in order for this to run.
 
-If you would like to connect this afterwards to your personal Github then:
+Google Maps APi is challenging and takes a bit of manipulation. A combination of docs, video and intuition has to be used to get things working the way you like.
 
-- go to your Github account in the browser
-- create a new repo and give it a name
-- make sure the repo is public and click `Create Repository`
-- copy the instructions under the title `…or push an existing repository from the command line`
-- paste the commands in your terminal
+This app uses [vis.gl's react-google-map](https://github.com/visgl/react-google-maps/tree/main) package because there seems to be more and sometimes clearer documentation around implementation.
 
-You have now connected your project to the repo.
+## Resources
 
-**You have the ability to clone this repo over and over to create your own projects. Just remember to change the name of the folder so that you do not have duplicates**
+- [Visgl React Google Maps](https://github.com/visgl/react-google-maps/tree/main)
+- [Google Maps API](https://developers.google.com/maps)
+- [react-map-gl docs - Get Started](https://visgl.github.io/react-map-gl/docs/get-started)
+- [Google Maps Series with Lee Halliday](https://www.youtube.com/watch?v=PfZ4oLftItk&list=PL2rFahu9sLJ2QuJaKKYDaJp0YqjFCDCtN)
